@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kinson Gan's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gan Ding Xun, Kinson">
+    <meta name="description" content="This beautiful page, belonging to Kinson Gan, was created to showcase his projects and coding skills.">
+    <meta name="keywords" content="kinson gan, kinson, portfolio, personal page">
+    <meta name="generator" content="Atom">
+    <link rel="icon" href="static\images\kinson.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Libre+Caslon+Display&family=Texturina:wght@100&family=Yuji+Mai&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ccecd22076.js" crossorigin="anonymous"></script>
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <script type="text/javascript">
+      var previous_audio_id = null;
+      function play_audio(clicked_audio_id) {
+        document.getElementById(clicked_audio_id).play();
+        previous_audio_id = clicked_audio_id;
+        console.log(clicked_audio_id);
+      }
+      function stop_audios() {
+        // console.log(clicked_audio_id);
+        // if (clicked_audio_id != null) {
+        //   ;
+        // }
+        // else {
+        document.getElementById(previous_audio_id).pause();
+    </script>
+    <header>
+      <nav class="navbar sticky-top">
+        <div class="container-fluid mx-3">
+          <a class="navbar-brand" href="#">Kinson</a>
+          <div class="me-auto">
+
+          </div>
+          <a class="navbar-item mx-1" href="#coding">Coding</a>
+          <a class="navbar-item mx-1" href="#music">Music</a>
+          <a class="navbar-item mx-1" href="#alma-maters">Alma Maters</a>
+          <a class="navbar-item mx-1" href="#about-me">About Me</a>
+        </div>
+      </nav>
+      <div class="container-fluid introduction d-flex">
+        <div class="middle">
+            <div class="first-line">
+              <h1>Hi, I'm Kinson.</h1>
+            </div>
+            <div class="second-line">
+              <h2>A dreamer. A coder. A wannabe lyricist.</h2>
+            </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container-fluid d-flex coding" id="coding">
+        <div class="middle">
+          <h1 class="section-heading">Coding Projects</h1>
+          <div id="codeShowcase" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#codeShowcase" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#codeShowcase" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#codeShowcase" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://replit.com/@Kinosaurus/Owners-Earnings-Stock-Analysis?v=1#main.py" target="_blank"><img width="300" src="static\images\stock-chart.jpeg"></a>
+                <div class="carousel-caption d-md-block">
+                  <h5>Stock Analysis</h5>
+                  <p>A program that calculates companies' intrinsic value through Owner's Earnings</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <video width="1000" src="static\videos\stock-code-demo.mp4" controls poster="stock-chart.jpg">
+
+                </video>
+                <div class="carousel-caption d-md-block">
+                  <h5>Stock Analysis Walkthrough Video</h5>
+                  <p>A demonstration of how the program sends data into a custom Google Sheet template to be displayed.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="https://replit.com/@Kinosaurus/Owners-Earnings-Stock-Analysis?v=1#main.py" target="_blank"><img width="300" src="static\images\morse-code.jpeg"></a>
+                <div class="carousel-caption d-md-block">
+                  <h5>Morse Code Translator</h5>
+                  <p>A program with dual function of encoding and decoding morse code.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#codeShowcase" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#codeShowcase" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid d-flex music" id="music">
+        <div class="middle">
+          <h1 class="section-heading">Musical Works</h1>
+          <div id="musicShowcase" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#musicShowcase" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#musicShowcase" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#musicShowcase" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#musicShowcase" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active my-auto">
+                <div class="cold-sleepless-nights">
+                  <audio id="cold-sleepless-nights" src="static\audio\cold-sleepless-nights.mp3"></audio>
+                  <button onclick="play_audio('cold-sleepless-nights')"><img src="static\images\cold-sleepless-nights.jpg" width="300" alt="Cold Sleepless Nights"></button>
+                  <div class="carousel-caption d-md-block">
+                    <h5>Cold Sleepless Nights</h5>
+                    <p>Click here for a listen!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <audio id="the-footsteps-in-my-heart" src="static\audio\the-footsteps-in-my-heart.mp3"></audio>
+                <button onclick="play_audio('the-footsteps-in-my-heart')"><img src="static\images\the-footsteps-in-my-heart.jpeg" width="300" alt="The Footsteps in my Heart"></button>
+                <div class="carousel-caption d-md-block">
+                  <h5>The Footsteps in my Heart</h5>
+                  <p>Click here for a listen!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <audio id="my-future-without-you" src="static\audio\my-future-without-you.mp3"></audio>
+                <button onclick="play_audio('my-future-without-you')"><img src="static\images\my-future-without-you.jpeg" width="300" alt="My Future Without You"></button>
+                <div class="carousel-caption d-md-block">
+                  <h5>My Future Without You</h5>
+                  <p>Click here for a listen!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <audio id="out-of-the-dark" src="static\audio\out-of-the-dark.mp3"></audio>
+                <button onclick="play_audio('out-of-the-dark')"><img src="static\images\out-of-the-dark.jpg" width="300" alt="Out of the Dark"></button>
+                <div class="carousel-caption d-md-block">
+                  <h5>Out of the Dark</h5>
+                  <p>Click here for a listen!.</p>
+                </div>
+              </div>
+            </div>
+            <button onclick="stop_audios()" class="carousel-control-prev" type="button" data-bs-target="#musicShowcase" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button onclick="stop_audios()" class="carousel-control-next" type="button" data-bs-target="#musicShowcase" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid d-flex alma-maters" id="alma-maters">
+        <div class="middle">
+          <h1 class="section-heading">Alma Maters</h1>
+          <div id="alumnusShowcase" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#alumnusShowcase" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#alumnusShowcase" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#alumnusShowcase" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#alumnusShowcase" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active my-auto">
+                <!-- <img src="static\images\liverpool.svg" alt="Liverpool FC Logo"> -->
+                <img width="300" src="static\images\GMPS.png" alt="Geylang Methodist School (Primary) Crest">
+                <div class="carousel-caption d-md-block">
+                  <h5>Geylang Methodist School (Primary) Alumnus</h5>
+                  <p>Class of 2014</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!-- <img src="static\images\saf_beret.webp" width="300" alt="SAF Green Beret Image"> -->
+                <img width="300" src="static\images\NHHS.png" width="300" alt="Nan Hua High School Crest">
+                <div class="carousel-caption d-md-block">
+                  <h5>Nan Hua High School Alumnus</h5>
+                  <p>Class of 2018</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img width="300" src="static\images\BB.png" width="300" alt="National Junior College School Crest">
+                <div class="carousel-caption d-md-block">
+                  <h5>The Boys' Brigade 94th Company Alumnus</h5>
+                  <p>Class of 2018</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!-- <img src="static\images\cancer.jpg" width="300" alt="Cancer Horoscope Image"> -->
+                <img width="300" src="static\images\NJC.png" width="300" alt="National Junior College School Crest">
+                <div class="carousel-caption d-md-block">
+                  <h5>National Junior College Alumnus</h5>
+                  <p>Class of 2020</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#alumnusShowcase" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#alumnusShowcase" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid d-flex about-me" id="about-me">
+        <div class="middle">
+          <h1 class="section-heading">About Me</h1>
+          <div id="aboutMeShowcase" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover" data-bs-touch="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#aboutMeShowcase" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#aboutMeShowcase" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#aboutMeShowcase" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active my-auto">
+                <!-- <img src="static\images\liverpool.svg" alt="Liverpool FC Logo"> -->
+                <img width="300" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/1200px-Liverpool_FC.svg.png" alt="Liverpool FC Logo">
+                <div class="carousel-caption d-md-block">
+                  <h5>Ardent/Avid Liverpool Fan</h5>
+                  <p>circa 2014.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!-- <img src="static\images\saf_beret.webp" width="300" alt="SAF Green Beret Image"> -->
+                <img width="300" src="https://preview.redd.it/zkoc8hh72cu71.png?width=1002&format=png&auto=webp&s=49ab894ed05b9109fc8b70df30418e3160bd38cc" width="300" alt="SAF Green Beret Image">
+                <div class="carousel-caption d-md-block">
+                  <h5>Full-Time National Serviceman (NSF)</h5>
+                  <p>Working to be a 3rd Sergeant, ORD on 27/07/2023!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!-- <img src="static\images\cancer.jpg" width="300" alt="Cancer Horoscope Image"> -->
+                <img width="300" src="data:image/jpeg;base64,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" width="300" alt="Cancer Horoscope Image">
+                <div class="carousel-caption d-md-block">
+                  <h5>Cancer Horoscope</h5>
+                  <p>I identify very closely with the traits of a Cancer. e.g.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#aboutMeShowcase" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#aboutMeShowcase" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="#footer">
+      <nav class="navbar justify-content-center">
+        <div class="navbar-item col-1 text-center">
+            <img src="static\images\kinson.ico" alt="Kinson ">
+        </div>
+        <div class="col-1 text-center">
+          <a class="navbar-item" href="https://www.linkedin.com/in/kinson-g-b59a11132">
+            <i class="fa-brands fa-linkedin fa-2xl"></i>
+          </a>
+        </div>
+        <div class="col-1 text-center">
+          <a class="navbar-item" href="#footer" onclick="location.href='mailto:kinson.gdx@gmail.com';">
+            <i class="fa-solid fa-envelope fa-2xl"></i>
+          </a>
+        </div>
+        <div class="col-1 text-center">
+          <a class="navbar-item" href="https://www.kinomoosic.blogspot.com">
+            <i class="fa-brands fa-blogger fa-2xl"></i>
+          </a>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>

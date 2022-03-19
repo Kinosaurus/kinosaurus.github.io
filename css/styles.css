@@ -1,0 +1,58 @@
+.navbar {
+  background-color: #7ED684;
+}
+
+.middle {
+  text-align: center;
+  padding: 25px 0;
+  margin: auto;
+}
+
+.introduction {
+  height: 640px;
+  background-color: #78C4D4;
+}
+
+.first-line {
+  font-family: 'Yuji Mai', serif;
+}
+
+.second-line {
+  font-family: 'Texturina', serif;
+}
+
+.coding {
+  background-color: #D77FA1;
+}
+
+.music {
+  background-color: #BAABDA;
+}
+
+.alma-maters {
+  background-color: #FFF9F9;
+}
+
+.about-me {
+  background-color: #D6E5FA;
+}
+
+.section-heading {
+  font-family: 'Libre Caslon Display', serif;
+}
+
+.carousel-caption {
+  background-color: white;
+  color: black;
+  opacity: 0;
+  font-family: 'Hina Mincho', serif;
+}
+
+.carousel-caption:hover {
+  opacity: 0.85;
+}
+
+
+i {
+  color: #000000;
+}
